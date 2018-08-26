@@ -4,7 +4,7 @@ Before compile rename `config.h.example` to `config.h`
 and set parameters inside it
 
 
-I used it with [HTTP-SWICH](https://github.com/Supereg/homebridge-http-switch#readme) with folowing configuration 
+I used it with [HTTP-SWITCH](https://github.com/Supereg/homebridge-http-switch#readme) with folowing configuration 
 ```
 {
             "accessory": "HTTP-SWITCH",
