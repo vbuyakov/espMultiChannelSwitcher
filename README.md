@@ -4,10 +4,10 @@ Before compile rename `config.example.h` to `config.h`
 and set parameters inside it
 
 
-I used it with [HTTP-SWITCH](https://github.com/Supereg/homebridge-http-switch#readme)
+I used it with homebrige plugins [HTTP-SWITCH](https://github.com/Supereg/homebridge-http-switch#readme)
 And [Notifications servrer](https://github.com/Supereg/homebridge-http-notification-server)
 
-In the folder `homebridge-configs` you can fin examples of configuration
+In the folder `homebridge-configs` you can fin examples of configuration for these homebridge plugins.
 
 Also your can connect buttons or remote control to switch channels w/o wifi access.
 Buttons should be connect to ground. Pins are configurable.
