@@ -1,0 +1,38 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "XX.XX.XX.XX",
+        "port": 51827,
+        "pin": "XXX-XX-XXX"
+    },
+    
+	"description": "HTTP-SWITCH TEST CONFIGURATION",
+
+    "accessories": [
+          {
+            "accessory": "HTTP-SWITCH",
+            "name": "Bedroom first lamp",
+
+            "notificationID": "bedroom-1",
+            "notificationPassword": "zzz",
+
+            "httpMethod": "GET",
+            "onUrl": "http://192.168.0.172/on?token=qqq&lamp=1",
+            "offUrl": "http://192.168.0.172/off?token=qqq&lamp=1",
+            "statusUrl": "http://192.168.0.172/status?token=qqq&lamp=1"
+          },
+          {
+            "accessory": "HTTP-SWITCH",
+            "name": "Bedroom second lamp",
+
+            "notificationID": "bedroom-2",
+            "notificationPassword": "zzz",
+
+            "httpMethod": "GET",
+            "onUrl": "http://192.168.0.172/on?token=qqq&lamp=2",
+            "offUrl": "http://192.168.0.172/off?token=qqq&lamp=2",
+            "statusUrl": "http://192.168.0.172/status?token=qqq&lamp=2"
+          }   
+    ]
+
+}

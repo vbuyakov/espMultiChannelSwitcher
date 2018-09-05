@@ -13,16 +13,18 @@ const int lampPin_2 = 5;
 //Buttons pins
 const int buttonPin_1 = 0;
 const int buttonPin_2 = 14;
-//Home bridge server setup
-const String homeBridgeIP = "192.168.0.111"; // IP Address to notify Home Bridge
-const String homeBridgeToken = "Your homeBridgeToken"; //Token to access home bridge 
+
+//Home bridge Notification server server setup
+const String notificationSrvUrl = "http://192.168.0.1:8080"; //Url for notification server
+const String notificationSrvPwd = "your_pwd"; //Use same pwd for all devices
+const String devicesNames[2] = ["lamp-1", "lamp-2"]; //Names in notification server config
+
 //WiFi server setup
-const String ssid = "OranganWRT18";       // SSID Name
-const String password = "k316rv23";       // password
-//const String iotServerToken = "This device access  token";      // This device access  token
-const String iotServerToken = "qqq";      // This device access  token
+const String ssid = "XXXXXXXX";       // SSID Name
+const String password = "XXXXXXXX";       // password
+const String iotServerToken = "Your-device-token";      // This device access  token
 const String iotServerName = "IOT_lamps";          // Host name of this Device, can be any
-const String srvIp = "192.168.0.172"; // where xx is the desired IP Address
+const String srvIp = "192.168.0.xxx"; // where xx is the desired IP Address
 const String srvGateway = "192.168.0.1"; // set gateway to match your network
 const String srvSubnet ="255.255.255.0"; // set subnet mask to match your network
 
