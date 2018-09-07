@@ -1,3 +1,7 @@
 .vscode
 .vscode/*
 config.h
+.idea
+.idea/*
+CMakeLists.txt
+cmake-build-debug/
